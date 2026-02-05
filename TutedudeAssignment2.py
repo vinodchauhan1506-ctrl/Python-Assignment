@@ -6,8 +6,16 @@ if Number%2==0:
 else:
     print(Number," is a odd number")
 
-# To print a range 1 to 50 with the help of forloop and also get total of range
 
-for i in range (1,51):
-    print(i)
-print("The sum of range (1,51) is :",sum(range(1,51)))
+# Python program to calculate the sum of integers from 1 to 50
+
+# Initialize sum
+total_sum = 0
+
+# Iterate over numbers from 1 to 50
+for num in range(1, 51):
+    print(num)
+    total_sum += num
+
+# Display the final sum
+print("The sum of integers from 1 to 50 is:", total_sum)
